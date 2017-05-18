@@ -1,0 +1,486 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Cabin';
+font-weight: normal;
+font-size: 	16px;
+height: 100%; 
+color: #176897;
+background-color: #e5ecf3;
+
+}
+
+
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Regular'), local('Cabin-Regular'), url(http://themes.googleusercontent.com/static/fonts/cabin/v5/JEgmtEDzc-IH8jBshQXrYA.woff) format('woff');
+}
+
+
+h1 {
+font-size: 	26px;
+margin: 0px 0px 0px 70px;
+padding: 0px 0px 0px 0px;
+font-weight: normal;
+text-transform:uppercase;
+}
+
+.spiel_inhalt {
+width: 85%;
+margin: 0px 0px 0px 70px;
+padding: 0px 0px 0px 0px;
+line-height: 150%;
+font-size: 	16px;
+font-weight: normal;
+}
+
+.spiel_inhalt_weiss {
+width: 57%;
+margin: 0px 0px 0px 350px;
+padding: 0px 0px 0px 0px;
+line-height: 150%;
+font-size: 	16px;
+font-weight: normal;
+color: #fff;
+}
+
+.spiel_inhalt_blau {
+width: 55%;
+margin: 0px 0px 0px 350px;
+padding: 0px 0px 0px 0px;
+line-height: 150%;
+font-size: 	16px;
+font-weight: normal;
+color: #176897;
+}
+
+
+.spiel_inhalt_folgend {
+width: 85%;
+margin: 20px 0px 0px 70px;
+padding: 0px 0px 0px 0px;
+line-height: 150%;
+font-size: 	16px;
+font-weight: normal;
+}
+
+.spiel_inhalt_folgend_weiss {
+width: 57%;
+margin: 20px 0px 0px 350px;
+padding: 0px 0px 0px 0px;
+line-height: 150%;
+font-size: 	16px;
+font-weight: normal;
+color: #fff;
+}
+
+.spiel_inhalt_folgend_blau {
+width: 55%;
+margin: 20px 0px 0px 350px;
+padding: 0px 0px 0px 0px;
+line-height: 150%;
+font-size: 	16px;
+font-weight: normal;
+color: #176897;
+}
+
+.spiel_inhalt a {
+color: #176897;
+text-decoration: underline;
+font-size: 	16px;
+font-weight: normal;
+}
+
+.zitate {
+color: #176897;
+font-size: 24px;
+font-weight: normal;
+}
+
+.linie_inhalt {
+margin: 25px 0px 25px 70px;
+padding: 0px 0px 0px 0px;
+font-weight: normal;
+}
+
+.inhalt_spiele {
+width: 960px;
+border: 0px solid red;
+font-size: 	16px;
+font-weight: normal;
+
+}
+
+#zentriert_nav {
+width: 100%;
+background-color: #ffffff;	
+height: 82px;
+position: fixed;
+border: 0px solid green;
+z-index:3000;
+font-size: 	16px;
+font-weight: normal;
+
+}
+
+#navbar {
+height: 80px;
+background-color: #ffffff;
+position: relative;
+border: 0px solid red;
+margin: 0px auto;
+width: 960px;
+z-index:3000;
+font-size: 	16px;
+font-weight: normal;
+}
+
+#zentriert_erklaerung {
+width: 100%;
+font-size: 	16px;
+z-index:80;
+font-weight: normal;
+
+}
+
+#zentriert_footer {
+width: 100%;
+font-size: 	16px;
+z-index:80;
+font-weight: normal;
+
+}
+
+#zentriert_spiel_1 {
+width: 100%;
+font-size: 	16px;
+z-index:80;
+font-weight: normal;
+
+}
+
+#zentriert_spiel_2 {
+width: 100%;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+
+}
+
+#zentriert_spiel_3 {
+width: 100%;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+
+}
+
+#zentriert_spiel_4 {
+width: 100%;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+
+}
+
+#erklaerung {
+background-color: #fff;
+position: relative;
+border: 0px solid red;
+margin: 0px auto;
+padding: 80px 0px 20px 0px;
+width: 960px;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+}
+
+#footer {
+background-color: #D1DCE2;
+position: relative;
+border: 0px solid red;
+margin: 0px auto;
+padding: 15px 0px 20px 0px;
+width: 960px;
+height: 250px;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+}
+
+#spiel_1 {
+background-color: #D1DCE2;
+position: relative;
+border: 0px solid red;
+margin: 0px auto;
+padding: 30px 0px 20px 0px;
+width: 960px;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+}
+
+#spiel_2 {
+background-image:url(../img/back_tafel.jpg);
+background-repeat: no-repeat;
+position: relative;
+border: 0px solid red;
+margin: 0px auto;
+padding: 80px 0px 20px 0px;
+width: 960px;
+height: 500px;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+}
+
+#spiel_3 {
+background-image:url(../img/back_gluecksbringer.jpg);
+background-repeat: no-repeat;
+position: relative;
+border: 0px solid red;
+margin: 0px auto;
+padding: 80px 0px 20px 0px;
+width: 960px;
+height: 393px;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+}
+
+#spiel_4 {
+background-color: #f2f2f2;
+position: relative;
+border: 0px solid red;
+margin: 0px auto;
+padding: 25px 0px 20px 0px;
+width: 960px;
+z-index:80;
+font-size: 	16px;
+font-weight: normal;
+}
+
+
+ul {
+font-family: 'Cabin';
+color: #9c9d9a;
+border: 0px solid red;
+width: 674px;
+position: absolute;
+float: right;
+list-style-type: none;
+margin: 52px 0px 0px 250px;
+padding: 0;
+font-size: 	16px;
+font-weight: normal;
+}
+
+li {
+display: inline;
+font-size: 	16px;
+font-weight: normal;
+}
+
+li a {
+display:block;
+float: right;
+margin: 0px 0px 0px 0px;
+color: #9c9d9a;
+text-decoration: none;
+font-weight: bold;
+outline: none;
+font-size: 	16px;
+font-weight: normal;
+}
+
+li a:hover{
+display:block;
+float: right;
+margin: 0px 0px 0px 0px;
+color: #6b6b6b;
+text-decoration: none;
+font-weight: bold;
+outline: none;
+font-size: 	16px;
+font-weight: normal;
+}
+
+#slider {
+ width: 813px;
+ position: relative;
+ height: 117px;
+ border: 0px solid red;
+
+ 
+				
+ /*IE bugfix*/
+padding:0;
+margin:0;
+ }
+			
+#slider li {
+list-style:none;
+
+position: relative;
+
+}
+			
+#page {
+ width:813px;
+ margin:0px auto;
+}
+
+.features_first {
+width: 157px;
+height: 300px;
+border: 1px solid #afc0ca;
+margin: 0px 0px 0px 0px;
+float: left;
+background-color: #F5F7F8;
+}
+
+.features {
+width: 157px;
+height: 300px;
+border: 1px solid #afc0ca;
+margin: 0px 0px 0px 6px;
+float: left;
+background-color: #F5F7F8;
+}
+
+.headline_features {
+font-size: 22px;
+color: #176897;	
+margin: 5px 0px 0px 15px;
+}
+
+.text_features {
+font-size: 16px;
+color: #474747;	
+margin: 20px 0px 0px 15px;
+}
+
+.anmeldeformular [type="text"]  {
+color: #176897;
+font-size: 16px;
+font-family: 'Cabin';
+width: 197px;
+border: 2px solid #176897;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+height: auto;
+padding: 4px 0px 4px 5px
+}
+
+.anmeldeformular [type="password"]  {
+color: #176897;
+font-size: 16px;
+font-family: 'Cabin';
+width: 197px;
+border: 2px solid #176897;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+height: auto;
+padding: 4px 0px 4px 5px
+}
+
+textarea  {
+color: #525252;
+font-size: 16px;
+border: 1px solid #DBDBDB;
+
+
+padding: 4px 0px 3px 3px
+}
+
+.anmeldeformular [type="password"]  {
+color: #525252;
+font-size: 16px;
+width: 197px;
+border: 1px solid #DBDBDB;
+height: 18px;
+padding: 4px 0px 3px 3px
+}
+
+.anmeldeformular radio, label   {
+color: #525252;
+font-size: 16px;
+font-family: 'Cabin';
+}
+
+.anmeldeformular [type="submit"]   {
+color: #fff;
+font-size: 16px;
+}
+
+.anmeldeformular [type="submit"]:hover   {
+color: #fff;
+font-size: 16px;
+}
+
+input[type="submit"] {
+background-image: url("../img/button_absenden_normal.jpg");
+background-repeat:repeat-x;
+font-family: 'Cabin';
+color: #fff;
+height: 35px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border: 1px solid #2a90b7;
+font-size: 18px;
+font-weight:normal;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-image: url("../img/button_absenden_hover.jpg");
+background-repeat:repeat-x;
+font-family: 'Cabin';
+color: #fff;
+height: 35px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border: 1px solid #2a90b7;
+font-size: 18px;
+font-weight:normal;
+cursor: pointer;
+}
+
+input[type="button"] {
+background-image: url("../img/button_absenden_normal.jpg");
+background-repeat:repeat-x;
+font-family: 'Cabin';
+color: #fff;
+height: 35px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border: 1px solid #2a90b7;
+font-size: 18px;
+font-weight:normal;
+cursor: pointer;
+}
+
+input[type="button"]:hover {
+background-image: url("../img/button_absenden_hover.jpg");
+background-repeat:repeat-x;
+font-family: 'Cabin';
+color: #fff;
+height: 35px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border: 1px solid #2a90b7;
+font-size: 18px;
+font-weight:normal;
+cursor: pointer;
+}

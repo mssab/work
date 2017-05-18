@@ -1,0 +1,42 @@
+﻿body 
+{
+width:1920px;
+height:1080px;
+height:auto;
+width: auto; /* ie 8 */
+overflow-x: hidden;
+overflow-y: hidden;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+html 
+{
+width:1920px;
+height:1080px;
+height:auto;
+width: auto; /* ie 8 */
+overflow-x: hidden;
+overflow-y: hidden;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+
+    
+img
+{    
+width:1920px;
+height:1080px;
+height:auto;
+width: auto; /* ie 8 */
+overflow-x: hidden;
+overflow-y: hidden;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.aktionslabel
+{
+    cursor:pointer;
+    }

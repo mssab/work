@@ -1,0 +1,156 @@
+﻿<%@ Master Language="VB" CodeFile="deko_2015_master_intern.master.vb" Inherits="deko_2014_master_intern" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+  <title>Grohe Promotionplaner - Ein Service der gate communication group GmbH</title>
+  		
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  
+  <script type="text/javascript" src="js/mootools.js"></script>
+  <script type="text/javascript" src="js/slideshow.js"></script>
+  
+  <script type="text/javascript">
+      window.onload = function ()
+      { myShow = new Slideshow('Bild1', { hu: 'images/', images: ['header_start.jpg', 'header_start_2.jpg', 'header_start_3.jpg'] }) }
+  </script>	
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="background_container" class="shadow">
+    
+  <div id="content">
+  
+   <div id="top">   
+    <div style="float:left;font-family: arial; margin: 18px 0px 0px 7px">
+    <div style="font-size: 36px; text-transform: uppercase; color: #646464;">Projekt-Portal</div>
+    <div style="font-size: 16px; color: #646464; margin-top:15px; margin-left:2px">Ein Service der gate communication group GmbH</div>
+   </div>
+    <img src="images/logo_grohe.jpg" alt="logo grohe" border="0" style="float:right;" />
+   </div>
+   
+   <div id="navigation">
+   <ul class="nav">
+    <li><a href="#">Aktion: Schaufenster Deko 2015</a>
+        <ul>
+            <li><a href="deko_2017_intern_projekte_alle.aspx">Schaufenster Deko 2017</a></li>
+            <li><a href="deko_2016_intern_projekte_alle.aspx">Schaufenster Deko 2016</a></li>
+            <li><a href="deko_2015_intern_projekte_alle.aspx">Schaufenster Deko 2015</a></li>
+            <li><a href="deko_2014_intern_projekte_alle.aspx">Schaufenster Deko 2014</a></li>
+            <li><a href="intern_projekte_alle.aspx">Schaufenster Deko 2013</a></li>
+            <li><a href="intern_projekte_gsp_alle.aspx">Grohe Service Point</a></li>
+            <li><a href="#">gelöschte Projekte</a></li>
+        </ul>
+    </li>
+	<li><a href="#">Projekte</a>
+        <ul>
+            <li><a href="deko_2017_intern_projekte_alle.aspx">Alle Projekte</a></li>
+            <li><a href="deko_2017_intern_projekte_ohne_zuordnung.aspx">Projekte ohne Zuordnung</a></li>
+            
+        </ul>
+    </li>
+	<li><a href="#">Personal</a>
+	 <ul>
+	  <li><a href="deko_2015_personal_intern.aspx">Personalbestand anzeigen</a></li>								
+	  <%--<li><a href="#">Neues Personal anlegen</a></li>--%>	  
+	 </ul>
+	</li>
+    <%--<li><a href="#">Fahrzeuge</a>
+        <ul>
+            <li><a href="#">Fahrzeugbestand anzeigen</a></li>
+            <li><a href="#">Neues Fahrzeug anlegen</a></li>
+        </ul>        
+    </li>--%>
+    <li><a href="#">Equipment</a>
+        <ul>
+            <li><a href="deko_2015_intern_material_gesamt.aspx">Lagerbestände</a></li>
+            <%--<li><a href="#">Neues Equipment anlegen</a></li>--%>
+        </ul>
+    </li>
+    <li><a href="#">Auswertungen</a>
+	 <ul>
+	  <li><a href="deko_2015_intern_aktion_offen.aspx">Offene Aktionsberichte zur Freigabe</a></li>								
+	  <li><a href="deko_2015_intern_aktion_bestaetigt.aspx">Bestätigte Aktionsberichte</a></li>
+	  <li><a href="deko_2015_intern_aktion_fehlend.aspx">Fehlende Aktionsberichte</a></li>
+	  <li><a href="deko_2015_intern_aktion_alle.aspx">alle Aktionsberichte</a></li>
+      <li><a href="deko_2015_intern_auswertung_dekorationen.aspx">Auswertung Dekorationen</a></li>
+      <li><a href="deko_2015_intern_auswertung_mitarbeiter.aspx">Auswertung Dekorateure</a></li>
+	 </ul>
+	</li>
+	<li><a href="#">FAQ</a></li>	
+    <li style="float:right;"><asp:LinkButton ID="logout" runat="server">Logout</asp:LinkButton></li>
+   </ul>
+   </div>
+   
+   <div id="header">
+     <div id="Bild1"></div> 
+   </div>  
+   
+   <div id="content_big" style="width:1380px;">
+   
+   <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   </div>
+   
+   
+   
+   <div style="clear:both;"></div>
+  
+  </div>
+   
+ </div>
+ 
+ <div id="footer" class="shadow">
+  <div id="footer_content">
+  
+  <div style="float:left; width: 230px;">
+  <span class="headline_footer">Kontakt / Impressum</span>
+  
+  <p class="absatz">
+  <strong>gate communication group GmbH</strong><br />
+  Tronjestraße 13<br />
+  44319 Dortmund</p>
+
+  <p class="absatz">
+  Telefon: 0231.927170-0<br />
+  Telefax: 0231.927170-70<br />
+  eMail: info@gate.de<br />
+  Internet: www.gate.de</p>
+
+  <p class="absatz" style="margin-bottom:7px;">
+  Geschäftsführer: Jens Römer<br />
+  HRB 7778 Dortmund<br />
+  UST-ID Nr. DE 124 731 239</p>
+  </div>
+  
+  
+  <div style="float:left; width: 535px;">
+  <span class="headline_footer">Disclaimer:</span>
+  
+  <p class="absatz">
+  Alle Rechte liegen bei der gate communication group GmbH. Diese Internet-Seiten dienen der allgemeinen Information über die gate communication group GmbH. Wir bemühen uns, genaue und aktuelle Informationen zur Verfügung zu stellen. Wir übernehmen jedoch keine Garantie (weder ausdrücklich noch stillschweigend) für die Richtigkeit und Vollständigkeit der Informationen sowie keine Haftung für jegliche Art von Schäden, die sich aus dem Gebrauch der hier veröffentlichten Informationen ergeben. Wir behalten uns vor, den Inhalt dieser Internet-Seiten ohne vorherige Ankündigung zu ändern. Eine Haftung ergibt sich daraus nicht.
+  </p>
+  
+  <span class="headline_footer">Haftungsausschluss für externe Links:</span>
+  <p class="absatz" style="margin-bottom:7px;">
+  Trotz sorgfältiger Prüfung kann die gate communication group GmbH keine Verantwortung für die Inhalte der externen verlinkten Seiten übernehmen, da diese sich nach der Linksetzung verändern können. Sollten Sie einen Link bemerken, der entweder nicht mehr funktioniert oder aber auf thematisch unpassende Inhalte verweist, schicken Sie uns bitte eine E-Mail.
+  </p>
+  </div>
+  
+  <div style="clear:both;"></div>
+  </div>
+ </div>
+    
+
+        
+    
+    </form>
+</body>
+</html>

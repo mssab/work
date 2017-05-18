@@ -1,0 +1,45 @@
+﻿
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="visibility:hidden;" style="float: right; height:1px">
+        
+<input type="text" ID="stromzaehler" Value="100" style=" height:1px" />
+         
+</div>
+
+<table border="0" cellpadding="0" cellspacing="0" style="margin: 0px 0px 0px 348px">
+ <tr>
+  <td style="width: 100px; height: 60px;">Aktueller<br />Punktestand:</td>
+  <td><div id="erhoehterzaehler" style="font-size: 42px; color: red;"></div></td> 
+ </tr>
+
+</table>
+
+<script language="Javascript">
+        var countdown_number = parseInt(document.getElementById('stromzaehler').value);
+        function countdown_trigger() {
+            var min = 15;
+            var max = 30;
+            var x = Math.round(Math.random() * (max - min)) + min;
+            countdown_number += x;
+            document.getElementById('erhoehterzaehler').innerHTML = countdown_number;
+            countdown = setTimeout('countdown_trigger()', 5000);
+        }
+        setTimeout('countdown_trigger()', 1000);
+</script>
+
+
+</body>
+</html>
+
+
